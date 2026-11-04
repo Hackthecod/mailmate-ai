@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     mistral_api_key: str = ""
     mistral_model: str = "mistral-small-latest"
     gemini_api_key: str = ""
-    gemini_model: str = "gemini-2.5-flash"
+    gemini_model: str = "gemini-3.8-flash"
 
     llm_default_provider: str = "groq"
     llm_provider_order: str = "groq,mistral,gemini"
